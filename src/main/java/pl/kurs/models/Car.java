@@ -58,4 +58,14 @@ public class Car {
                 ", currentSpeedKmh=" + currentSpeedKmh +
                 '}';
     }
+
+
+    public void accelerate() {
+        currentSpeedKmh += 10;
+    }
+
+    public void decelerate() {
+        currentSpeedKmh -= 10;
+    }
+
 }
